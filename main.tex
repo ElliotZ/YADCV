@@ -1,0 +1,57 @@
+%!TEX TS-program = xelatex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% YADCV - YADCV is A Developer CV
+% LaTeX Template
+% Version 1.0 (08/03/20)
+%
+% This template is based on Developer CV, with added support for
+% better rendering for unicode characters (via XeLaTeX), tweaked
+% spacing / layout, modularized document structure, and a custom
+% colorbox command.
+% 
+% Now with Nord Color scheme integration.
+%
+% The original template is available from:
+% http://www.LaTeXTemplates.com
+%
+% Author: Yile "Elliot" Zhu
+%
+% Original Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{yadcv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\input{sect/header.tex}
+\input{sect/education.tex}
+\input{sect/experience.tex}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+    \input{sect/projects.tex}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+    \input{sect/skills.tex}
+\end{minipage}
+
+\input{sect/miscinfo.tex}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
