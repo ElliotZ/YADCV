@@ -8,7 +8,7 @@ Now with Nord Color scheme integration.
 The TeX distribution I use is TeX Live. Minimal distributions may not provide all of the packages used in this template.
 
 ### Building pdf
-Use `xelatex main.pdf` to build. Alternatively, use `latexmk`.
+Use `xelatex main.tex` to build. Alternatively, use `latexmk`.
 
 ### Customization
 Edit files in `sect/` for each section of the CV. Most of the formatting are defined in the class file `yadcv.cls`. More than a few custom commands have optional arguments that are not used in the example, so please refer to the class file for detailed instructions.
