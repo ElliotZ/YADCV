@@ -11,7 +11,8 @@ The TeX distribution I use is TeX Live. Minimal distributions may not provide al
 Use `xelatex main.pdf` to build. Alternatively, use `latexmk`.
 
 ### Preview
-Click [This](https://raw.githubusercontent.com/ElliotZ/YADCV/master/main.pdf)
+Click [This](https://raw.githubusercontent.com/ElliotZ/YADCV/master/main.pdf) to download.
+[![Résumé](https://raw.githubusercontent.com/ElliotZ/YADCV/master/main-0.png)](https://raw.githubusercontent.com/ElliotZ/YADCV/master/main.pdf)
 
 ### Customization
 Edit files in `sect/` for each section of the CV. Most of the formatting are defined in the class file `yadcv.cls`. More than a few custom commands have optional arguments that are not used in the example, so please refer to the class file for detailed instructions.
