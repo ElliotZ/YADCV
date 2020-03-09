@@ -166,9 +166,9 @@
     \vcenteredhbox{%
         \colorbox{Frost3}{%
             \makebox(#2, #2){%
-                \textcolor{SnowStorm2}{\large\FA\csname faicon@#1\endcsname}
-            }
-        }
+                \textcolor{SnowStorm2}{\large\FA\csname faicon@#1\endcsname}%
+            }%
+        }%
     }% Icon and box
 	\hspace{0.2cm}% Whitespace
 	\vcenteredhbox{\textcolor{PolarNight0}{#3}}% Text
